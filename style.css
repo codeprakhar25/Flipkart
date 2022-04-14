@@ -1,0 +1,130 @@
+.container{
+    height : 300px;
+width: fit-content;
+}
+img{
+height : 240px;
+width: 1350px;
+
+}
+.ph{
+    display: flex;
+    flex-direction: row;
+
+}
+.ph img{
+height: 150px;
+width: 135px;
+padding: 0.7cm;
+padding-left: 50px;
+padding-bottom: 0.4cm;
+}
+.navbar{
+   background-color: aqua;
+}
+.navbar ul{
+   overflow: auto;
+}
+.navbar li{
+ float: left;
+ list-style: none;
+ margin: 15px;
+ text-decoration: none;
+ padding-left: 85px;
+}
+.navbar li a{
+ text-decoration: none;
+ 
+}
+#fl{
+color: aqua;
+font-size: large;
+font-weight: bolder;
+}
+
+.tut li{
+float: left;
+list-style: none;
+/*margin-left: 40px*/
+padding-left: 80px;
+padding-top: 0px;
+color: blueviolet;
+}
+.itemimg{
+    /*width: 20vw;*/
+    padding-left: 3vw;
+}
+.tut li a{
+text-decoration: none;
+}
+.itemname{
+  
+    width: 9vw;
+    margin-left: 2.7vw;
+    text-align: center;
+}
+.itemname2{
+    padding-left: 60px;
+}
+.book{
+margin: 10px;
+}
+.ad{
+float: left;
+}
+.phiot{
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+.dropdown-content{
+    display: block;
+}
+.navbar{
+    overflow: hidden;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 85px;
+    margin: 15px;
+  }
+.dropbtn{
+    width: 85px;
+}
+  .navbar a {
+    float: left;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  #se{
+    width: 200px;
+    border-width: 400px;
+  }
+  .imgg{
+    padding-left: 115px;
+   margin-top: 5px;
+  }
+  .imgg img{
+    width: 70px;
+    height: 80px;
+    
+  }
